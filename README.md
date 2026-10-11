@@ -1,4 +1,5 @@
 # codera_shops
+<img width="1919" height="1079" alt="Screenshot 2026-10-11 171525" src="https://github.com/user-attachments/assets/fc8bd49c-5a1a-4141-85f4-e11556280282" />
 
 NPC shops for FiveM with a modern NUI store: categories, cart, tax, and bank/cash payment. Works with QBox, QBCore and ESX, and detects your inventory and target system automatically.
 
