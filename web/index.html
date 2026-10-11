@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Codera Shops</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root" class="hidden">
+        <div class="backdrop"></div>
+
+        <div id="app">
+            <div class="brand">
+                <div class="brand-shop" id="brandShop">SHOP</div>
+                <div class="brand-title">STORE</div>
+            </div>
+
+            <div class="header">
+                <span class="header-title" id="topTitle"></span>
+                <span class="header-stripes"><i class="s1"></i><i class="s2"></i><i class="s3"></i></span>
+            </div>
+
+            <div id="categories" class="categories"></div>
+            <div class="divider d1"></div>
+
+            <div class="section-label" id="sectionLabel"></div>
+            <div id="items" class="items"></div>
+            <div class="divider d2"></div>
+
+            <section class="cart">
+                <div class="cart-head">
+                    <div class="cart-title">SHOPPING CART</div>
+                    <div class="cart-sub">FINALIZE THE PURCHASE OF YOUR ITEMS</div>
+                </div>
+                <div class="cart-body">
+                    <div class="cart-empty" id="cartEmpty">YOUR CART IS EMPTY</div>
+                    <div id="cartList"></div>
+                </div>
+                <div class="cart-totals">
+                    <div class="row"><span>Subtotal</span><span id="subtotal">$0</span></div>
+                    <div class="row"><span id="taxLabel">Tax (10%)</span><span id="tax">$0</span></div>
+                </div>
+                <div class="cart-total">
+                    <span class="lbl">TOTAL COST</span>
+                    <span class="val" id="total">$0</span>
+                </div>
+                <div class="pay">
+                    <button id="bankPay" class="pay-btn">BANK PAY</button>
+                    <button id="cashPay" class="pay-btn">CASH PAY</button>
+                </div>
+            </section>
+
+            <div class="hints">
+                <span class="hint"><b class="key">✥</b>NAVIGATE</span>
+                <span class="hint"><b class="key">↵</b>ADD TO CART</span>
+                <span class="hint"><b class="key">SHIFT</b>+10</span>
+                <span class="hint"><b class="key">ESC</b>CLOSE</span>
+            </div>
+
+            <div id="toast" class="toast hidden"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
